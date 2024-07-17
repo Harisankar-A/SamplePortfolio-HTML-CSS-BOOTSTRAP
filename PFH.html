@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Harisankar</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="PFC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li> <!-- Added Skills section link -->
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Harisankar. A</h1>
+        <p class="lead">An Aspiring Full Stack Developer</p>
+        <img src="/Profile.jpeg" alt="Profile Picture" class="rounded-circle" width="150" height="150">
+    </header>
+
+    <main>
+        <section id="about" class="container mt-5">
+            <h2>About Me</h2>
+            <p>Hello! I'm Harisankar, an aspiring full stack developer currently pursuing my Bachelor's degree in Computer Science and Engineering. 
+                I have a solid foundation in Java, HTML, CSS, JavaScript, and GitHub, which I have utilized in various projects and assignments. 
+                My goal is to become a proficient full stack developer, capable of building robust and efficient web applications. 
+                I am passionate about learning new technologies and continuously improving my skills to stay updated in this ever-evolving field. 
+                I look forward to contributing to exciting projects and collaborating with talented individuals to create innovative solutions.</p>
+        </section>
+
+        <section id="education" class="container mt-5">
+            <h2>Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item" style="text-align: center;"><i class="fa-solid fa-graduation-cap" style="color: #40534C;"></i></li>
+                <li class="list-group-item"><b>UG - B.E. CSE </b><p>Hindusthan Institute Of Technology <b>(CGPA : 8.9)</b></p></li>
+                <li class="list-group-item"><b>12th Std </b><p>Venkatalakshmi Matriculation Higher Secondary School <b>(Percentage : 91.8)</b></p></li>
+                <li class="list-group-item"><b>10th Std </b><p>Venkatalakshmi Matriculation Higher Secondary School <b>(Percentage : 93.6)</b></p></li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container mt-5">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item" style="text-align: center;"><i class="fa-solid fa-toolbox" style="color: #40534C;"></i></li>
+                <li class="list-group-item"><i class="bi bi-filetype-java"></i> Java</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">GitHub</li>
+            </ul>
+        </section>
+
+
+        <section id="projects" class="container mt-5">
+            <h2>Projects</h2>
+            <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- First Project -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="color: #40534C;">Hybrid Encryption and Decryption Software</h3>
+                                    <p class="card-text" style="color: #40534C;">
+                                        Hybrid Encryption and Decryption Software is a versatile Python application leveraging XOR Cipher and Lucas Series
+                                        algorithms to ensure robust data security. Built with PyQt5 library, it offers a user-friendly interface for seamless
+                                        encryption and decryption processes. By combining the strength of XOR Cipher with the mathematical elegance of Lucas
+                                        Series, it provides enhanced protection for sensitive information.
+                                    </p>
+                                    <button class="proj" onclick="window.location.href ='https://github.com/Harisankar-A-18/E-D-Software';">Repository</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- More Projects Coming Soon -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h3 class="card-title" style="color: #40534C;">More Projects Coming Soon...</h3>
+                                    <p class="card-text" style="color: #40534C;">
+                                        Stay tuned for more exciting projects! New and innovative projects are on the way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more carousel items for additional projects as needed -->
+                </div>
+                <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="container mt-5">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the following platforms:</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/a-harisankar/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #d6bd98;"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/Harisankar-A-18" target="_blank"><i class="fa-brands fa-github" style="color: #d6bd98;"></i></a></li>
+                <li class="list-inline-item"><a href="mailto:harisankarga@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #d6bd98;"></i></a></li>
+                <li class="list-inline-item"><a href="tel:7418305881" target="_blank"><i class="fa-solid fa-mobile" style="color: #d6bd98;"></i></a></li>
+                <!-- Add more icons for other platforms as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Hari. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

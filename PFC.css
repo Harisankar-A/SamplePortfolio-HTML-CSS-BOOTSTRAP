@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #40534C;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header.jumbotron {
+    background-color: #343a40;
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 30px;
+    margin-bottom: 0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: seashell;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ;
+}
+main{
+    color: rgb(245, 245, 245);
+}
+.list-group-item{
+    color: #40534C;
+}
+button.proj{
+    border-radius: 25px;
+    background-color: #40534C;
+    border: none;
+    padding: 15px;
+    color: aliceblue;
+}
+button.proj:hover{
+    border: 1px solid #40534C;
+    background-color: aliceblue;
+    color: #40534C;
+}
